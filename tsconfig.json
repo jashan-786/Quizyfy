@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/comp/*": ["./src/components/ui/*"]
+
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx",  "src", ".next/types/**/*.ts", "src/app/Instructor/Dashboard/Quizzez/Create-Quizz/page.jsx", "src/app/Instructor/Dashboard/SideBar/page.jsx", "src/utils/lanchain.js", "src/app/api/embedding/route.js", "src/app/api/embedding/route.js"],
+  "exclude": ["node_modules"],
+  "typeRoots": [
+      "node_modules/@types"
+    ]
+}

@@ -1,0 +1,15 @@
+name = "rag"
+type = "javascript"
+
+
+
+main = "worker2/index.ts" # Path to the first worker script
+
+compatibility_date = "2024-09-30"
+
+
+[ai]
+binding = "AI"
+
+[observability]
+enabled = true
